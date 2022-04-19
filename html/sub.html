@@ -1,0 +1,368 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="https://kit.fontawesome.com/f0729c0c03.js" crossorigin="anonymous"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+  <title>The Sill</title>
+  <link href="css/reset.css" rel="stylesheet">
+  <link href="css/common.css" rel="stylesheet">
+  <link href="css/sub.css" rel="stylesheet">
+  
+  <style>
+    * {box-sizing:border-box; font-family:"맑은 고딕"}
+    * {margin:0; padding:0;}
+    * ul, ol, li {list-style:none; margin:0; padding:0;}
+
+    #sub {width:1260px; height:800px; background-color:gold; margin:0 auto;}
+    #submenu {width:1260px; height:50px; background-color:pink; margin:0 auto;}
+    #submenu > ul > li {float:left; display:inline-block;margin:20px 20px 0 0px; font-size:12px;}
+    #submenu > ul > li> a {text-decoration:none; color: #666;}
+    #submenu > ul > .strong > a {text-decoration:none; color: #000;}
+    
+    #contents {width:1218px; height:750px; background-color:purple;  position:relative;}
+    
+    #product {width:500px; height:600px; background-color:gray; position:absolute; top:0px; left:50px; margin:20px 0 0 0;}
+    #product > img {width:100%; height:100%;}
+    
+    .picimage {width:114px; height:114px; background-color:beige; display:inline-block; float:left; margin:10px 10px 0 0;}
+    .picimage > img {width:100%; height:100%;}
+    
+    #context {width:450px; height:650px; background-color:yellow;position:absolute; top:0px; right:150px; margin:20px 0 0 0px;}
+
+    td {padding: 10px 20px;font-size: 16px;}
+    .t2 {font-weight:bold;}
+    .t3 {font-weight:bold;}
+    span > a {font-size:10px;color:#00ab84;}
+    .btn1 {width:90px; height:30px; text-align:center;border:0.5px; background-color:#fff;font-size:12px;}
+    .btn1:hover {font-style:italic;}
+    #select{padding:5px; border:none; width:120px; height:30px;}
+    #select > a {color:#00ab84;}
+    .box1 a{color:#000; font-size:12px; margin:10px;}
+    .box2 > button {padding:10px; font-size:16px; background-color:#00ab84; width:300px; height:50px; border:0; color:#fff;text-align:center; margin:50px 0 0 50px;}
+    .box3 > span {font-size:20px; color:yellowgreen; margin:50px 0 0 180px;}
+    .box3 > ul > li {font-size:16px; display:inline-block; color:yellowgreen; margin:10px 0 0 25px;}
+
+    #sublike {width:1260px; height:624px; background-color:pink; margin:0 auto;}
+    #sublike > h1 {font-size:24px;}
+    .smallbox {width:230px; height:330px; background-color:beige; display:inline-block; margin:7px;}
+    .smallbox >a > img  {width:100%; height:100%;}
+
+
+  </style>  
+
+
+</head>
+
+<body>
+
+  <!--header-->  
+  <header>
+    <div class = "top">
+      <div id="toplogo">
+        New in!Floor plants and large planters
+      </div>  
+    </div>
+    <div class = "bottom">
+      <div id="logo">
+        <img src="img/5.jpg" alt="logo">
+      </div>
+      <div class="imgbox1">
+       <a href="#"> <img src = "img/icon4.jpg" alt="icon4"> </a>
+       <span class="text1"> <a href="#"> Resources</a></span>
+       <span class="text2"> <a href="#"> FAQ, Blog, Support</a></span>
+     </div>
+     <div class="imgbox1">
+      <a href="#">  <img src = "img/icon5.jpg" alt="icon5"> </a>
+      <span class="text1"> <a href="#"> Visit The Sill</a></span>
+      <span class="text2">  <a href="#"> Store Locator</a></span>  
+    </div>
+    <div class="imgbox1">
+      <a href="#">  <img src = "img/icon6.jpg" alt="icon6"></a>
+      <span class="text1"> <a href="#"> Hello, Sign In</a></span>
+      <span class="text2"> <a href="#"> Your Account</a></span>
+    </div>
+    <div class="imgbox3">
+      <a href="#">  <img src = "img/icon7.jpg" alt="icon7"></a>
+    </div>
+    <div class="imgbox2">
+      <a href="#">   <img src = "img/icon8.jpg" alt="icon8"></a>
+      <span class="text1"> <a href="#"> (0)</a></span>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="#">Plants</a></li>
+        <li><a href="#">Mother's Day</a></li>
+        <li><a href="#">New Arrivals</a></li>
+        <li><a href="#">Plant Care</a></li>
+        <li><a href="#">Home & Decor</a></li>
+        <li><a href="#">Gifts</a></li>
+        <li><a href="#">Corporate Gifting</a></li>
+        <li><a href="#">Subscriptions</a></li>
+      </ul>
+
+    </nav>
+
+  </div>
+</header>
+
+<!--sub-->
+<div id="sub">
+
+<!--2nd nav-->
+  <div id="submenu">
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li>/</li>
+      <li><a href="#">Mother's Day</a></li>
+      <li>/</li>
+      <li class="strong"><a href="#">Monstera Deliciosa</a></li>
+    </ul>
+  </div>
+
+  <div id = "contents">
+    <div id="product">
+      <img src="img/product1.jpg" alt="product1">
+        <div class="picimage">
+          <img src="img/product2.jpg" alt="product2">
+        </div>
+        <div class="picimage">
+          <img src="img/product3.jpg" alt="product3">
+        </div>
+        <div class="picimage">
+          <img src="img/product4.jpg" alt="product4">
+        </div>
+        <div class="picimage">
+          <img src="img/product5.jpg" alt="product5">
+        </div>
+    </div>
+    <div id="context">
+      <h1>Monstera Deliciosa</h1>
+      <table>
+        <tr>
+          <td class="t1">Price</td>
+          <td>$38</td>
+        </tr>
+        <tr>
+          <td>For Membership</td>
+          <td class="t2">$34</td>
+        </tr>
+        <tr>
+          <td>Shipping Charge</td>
+          <td>$15</td>
+        <tr>
+          <td></td>
+          <td class="t3">Free Shipping for Membership</td>
+        </tr>
+        </tr>
+        <tr>
+          <td>Pot Size</td>
+          <td>
+          <button class="btn1">Medium-6"</button>
+          <button class="btn1">Large-10"</button>
+          <span><a href="#">Size Guide</a></span>
+        </td>
+        </tr>
+        <tr>
+          <td>Pot Color</td>
+          <td>
+            <select name="select" id="select" >
+              <option>rose wood</option>
+              <option>beige</option>
+              <option>Green</option>
+              <option>Black</option>
+              <option>White</option>
+            </select>
+          </td>
+        
+        </tr>
+        <tr>
+          <td>Planter</td>
+          <td>
+            <select name="select" id="select" >
+              <option>Grow Pot</option>
+              <option>Grant</option>
+              <option>Hyde</option>
+              <option>Acadia</option>
+              <option>Grant Limited Edition</option>
+              <option>Upcycled</option>
+              <option>Upcycled With Saucer</option>
+            </select>
+            <span><a href="#">Style Guide</a></span>
+          </td>
+        </tr>
+
+        <tr>
+          <td>Add to Cart</td>
+          <td>
+          <select name="select" id="select" >
+              <option>1</option>
+              <option>2</option>
+              <option>3</option>
+              <option>4</option>
+              <option>5</option>
+              <option>6</option>
+              <option>7</option>
+          </select>
+          </td>
+        </tr>
+
+      </table>
+      <div class="box1">
+        <a href="#">Choose your planter style & color</a>
+      </div>
+      <div class="box2">
+        <button>Buy Now</button>
+      </div>
+
+      <div class = "box3">
+        <span>Promise</span>
+        <br>
+        <ul>
+          <li>✓ Finest quality</li>
+          <li>✓ FREE deliver</li>
+          <li>✓ FREE returns</li>
+        </ul>
+      </div>
+      </div>
+    </div>
+  </div>
+
+<!--상품 상세컷-->
+<!--연관 상품-->
+<div id="sublike">
+  <h1>You Might Also Like</h1>
+  
+    <div class="smallbox"><a href="#"><img src="img/plant1.jpg" alt="plant1"></a>
+      <p><a href="#">
+        Philodendron Green</a><span>$28 - 66</span></p>
+    </div>
+    <div class="smallbox"><a href="#"><img src="img/plant2.jpg" alt="plant2"></a>
+      <p><a href="#">
+        Large Monstera Deliciosa</a><span>$88 - 174</span></p></div>
+    <div class="smallbox"><a href="#"><img src="img/plant3.jpg" alt="plant3"></a>
+      <p><a href="#">
+        ZZ Plant</a><span>$38 - 108</span></p>
+      </div>
+    <div class="smallbox"><a href="#"><img src="img/plant4.jpg" alt="plant4"></a>
+      <p><a href="#">
+        Jade Plant</a><span>$58 - 60</span></p>
+      </div>
+    <div class="smallbox"><a href="#"><img src="img/plant5.jpg" alt="plant5"></a>
+      <p><a href="#">
+        Tradescantia Pink Panther</a><span>$28 - 48</span></p></div>
+</div>
+
+
+<!--footer3-->
+<footer>
+  <div class="brick2">
+    <div id = "allbox">
+      <div id="box1">
+        <img src="img/people.png" alt="people">
+        <h1>Visit Us In A Store Near You</h1>
+        <p>Our stores around the US are open for plant shopping, repotting, curbside pickup, in-person workshops, and more.</p>
+        <span><a href="#">Find Your Local Store
+          <div class="iconbox">
+            <i class="fa-solid fa-arrow-right-long"></i>
+          </div>
+        </a></span>
+      </div>
+      <hr>
+      <div class="box2">
+        <div class="textbox3">
+          <p>Customer Service</p>
+          <ul>
+            <li><a href="#">FAQ</a></li>
+            <li><a href="#">Shipping & Handling</a></li>
+            <li><a href="#">30-Day Guarantee</a></li>
+            <li><a href="#">Contact Us</a></li>
+          </ul>
+        </div>
+        <div class="textbox3">
+          <p>Resources</p>
+          <ul>
+            <li><a href="#">Find Your Plant 🌱</a></li>
+            <li><a href="#">Plants Care Library</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Workshops</a></li>
+          </ul>
+        </div>
+        <div class="textbox3">
+          <p>My Sill</p>
+          <ul>
+            <li><a href="#">My Account</a></li>
+            <li><a href="#">Redeem Subscription</a></li>
+            <li><a href="#">Rewards Program</a></li>
+            <li><a href="#">Track My Order</a></li>
+          </ul>
+        </div>
+        <div class="textbox3">
+          <p>Explore</p>
+          <ul>
+            <li><a href="#">Our Story</a></li>
+            <li><a href="#">Locations</a></li>
+            <li><a href="#">Careers</a></li>
+            <li><a href="#">Corporate Gifting</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="box2">
+        <h2>Get the Dirt.</h2>
+        <p>Get plant care tips, exclusive offers, & event invites straight to your inbox. No spam ever.</p>
+        <form>
+          <input type="text" placeholder="Enter your email here..." >
+          <button>Subscribe</button>
+        </form>    
+        <div class="servicetext">
+          <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+        </div>
+        <div class="servicetext"> 
+          <a href="#"><i class="fa-brands fa-twitter"></i></a></div>
+          <div class="servicetext">
+            <a href="#"><i class="fa-brands fa-instagram"></i></a></div>
+            <div class="servicetext">
+              <a href="#"><i class="fa-brands fa-pinterest-p"></i></a></div>
+              <div class="servicetext">
+                <a href="#"><i class="fa-brands fa-youtube"></i></a></div>
+                <div class="servicetext">
+                  <a href="#"><i class="fa-brands fa-tiktok"></i></a></div>
+                  <div class="servicetext">
+                    <a href="#"><i class="fa-brands fa-linkedin-in"></i></a></div>
+
+
+                  </div>
+                  
+                  
+                  <p class="number1">The</p>
+                  <p class="number2">Sill</p>
+
+
+                  
+                  
+                </div>
+                
+              </div>
+
+              <!--footer4-->
+              <div id ="lastbox">
+                <div id="lasttext1">
+                 <p class="number3">Copyright 2022 - The Sill, Inc.</p>
+               </div>
+               <div id="lasttext2">
+                 <ul>
+                   <li><a href="#">Terms of Use</a></li>
+                   <li><a href="#">Privacy Policy</a></li>
+                   <li><a href="#">Accessibility</a> </li>
+                   <li><a href="#">Do Not Sell My Info</a></li>
+                 </ul>
+               </div>
+             </div>
+           </div>
+         </footer>
+
+       </body>
+       </html>
